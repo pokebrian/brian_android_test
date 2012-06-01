@@ -13,9 +13,11 @@ public class Teste1Activity extends Activity {
         //setContentView(R.layout.main);
         
         //MyFrameLayout myFrameLayout = new MyFrameLayout(this);
-        MyTableLayout myTableLayout = new MyTableLayout(this);
+        //MyTableLayout myTableLayout = new MyTableLayout(this);
+        
+        MyLinearLayout myLinearLayout = new MyLinearLayout(this);
 
-        setContentView(myTableLayout);
+        setContentView(myLinearLayout);
     }
     
 }
